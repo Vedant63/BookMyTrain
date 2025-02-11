@@ -1,4 +1,4 @@
-# 🚆 Railway Reservation System
+# 🚆 BookMyTrain - A Railway Reservation System
 
 A **Node.js + MySQL** powered **Railway Reservation System** with **JWT authentication**, **Admin functionalities**, and **ACID-compliant seat booking**.
 
