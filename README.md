@@ -2,6 +2,8 @@
 
 A **Node.js + MySQL** powered **Railway Reservation System** with **JWT authentication**, **Admin functionalities**, and **ACID-compliant seat booking**.
 
+[🔧 Jump to Installation & Setup](#-installation--setup)
+
 ---
 
 ## 🚀 Features
@@ -43,7 +45,6 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=railway_system
-JWT_SECRET=yourjwtsecret
 ADMIN_API_KEY=mysecureadminkey
 ```
 
@@ -81,7 +82,7 @@ CREATE TABLE bookings (
 );
 
 SELECT user, host, plugin FROM mysql.user WHERE user = 'root';
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ParleG@10';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'YourPassword';
 FLUSH PRIVILEGES;
 ```
 
@@ -93,7 +94,7 @@ Server runs on `http://localhost:5000`
 
 ---
 
-## 🔄 API Endpoints
+## 🔄 API Endpoints Testing
 
 ### **1️⃣ User Authentication**
 #### ➤ Register a User
@@ -183,21 +184,5 @@ Authorization: Bearer your_generated_jwt_token
 
 ---
 
-## 🤝 Contributing
-1. **Fork** the repository.
-2. **Clone** your fork.
-3. **Create a branch** (`git checkout -b feature-branch`)
-4. **Commit changes** (`git commit -m "Added new feature"`)
-5. **Push** to your fork (`git push origin feature-branch`)
-6. **Submit a PR** 🚀
 
----
-
-## 📜 License
-MIT License. Free to use and modify! 🎉
-
----
-
-## ⭐ Show Support
-Give a ⭐ if you like this project!
 
